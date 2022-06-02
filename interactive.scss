@@ -1,0 +1,54 @@
+// @keyframes more {
+//   0% {
+//     width: 100%;
+//     height: 100%;
+//   }
+//   100% {
+//     width: 120%;
+//     height: 120%;
+//   }
+// }
+.logo a img:hover,
+.logo2 a img:hover {
+  width: 120%;
+  height: 120%;
+  transform: translate(-10%, -10%);
+}
+
+.search img {
+  border: 1px solid transparent;
+  border-radius: 50% 50%;
+  padding: 10px 10px;
+}
+.search img:hover {
+  background-color: #cd6326;
+}
+.logo a h1:hover,
+.logo2 a h2:hover,
+.blog:hover,
+.contacs:hover,
+.container3 nav ul li a:hover {
+  color: #cd6326;
+}
+.slider {
+  // padding: 5px;
+  border: 1px solid transparent;
+  border-radius: 10%/50%;
+  padding: 0px 5px;
+  margin: 0px -5px;
+}
+.slider:hover {
+  background-color: #cd6326;
+  cursor: pointer;
+  box-shadow: 10px 5px 5px;
+}
+.facebook:hover,
+.instagram:hover,
+.pinterest:hover,
+.telegram:hover {
+  border: 1px solid transparent;
+  border-radius: 50%;
+  overflow: hidden;
+  //   background-color: #cd6326;
+  box-shadow: 0px 0px 30px 10px #cd6326;
+}

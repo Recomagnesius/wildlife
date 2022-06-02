@@ -1,0 +1,44 @@
+.logo a img:hover,
+.logo2 a img:hover {
+  width: 120%;
+  height: 120%;
+  -webkit-transform: translate(-10%, -10%);
+  -ms-transform: translate(-10%, -10%);
+  transform: translate(-10%, -10%); }
+
+.search img {
+  border: 1px solid transparent;
+  border-radius: 50% 50%;
+  padding: 10px 10px; }
+
+.search img:hover {
+  background-color: #cd6326; }
+
+.logo a h1:hover,
+.logo2 a h2:hover,
+.blog:hover,
+.contacs:hover,
+.container3 nav ul li a:hover {
+  color: #cd6326; }
+
+.slider {
+  border: 1px solid transparent;
+  border-radius: 10%/50%;
+  padding: 0px 5px;
+  margin: 0px -5px; }
+
+.slider:hover {
+  background-color: #cd6326;
+  cursor: pointer;
+  -webkit-box-shadow: 10px 5px 5px;
+  box-shadow: 10px 5px 5px; }
+
+.facebook:hover,
+.instagram:hover,
+.pinterest:hover,
+.telegram:hover {
+  border: 1px solid transparent;
+  border-radius: 50%;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 0px 30px 10px #cd6326;
+  box-shadow: 0px 0px 30px 10px #cd6326; }
